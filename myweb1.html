@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.topnav{
+	background-color: #333;
+}
+.topnav a{
+	float:right;
+	color:blue;
+	text-align: center;
+	text-decoration: none;
+	font-size:17px;
+}
+.topnav a:hover{
+	background-color: #ddd;
+	color:blue;
+}
+*{
+	font-family:oxygen;
+		background-color:#C39BD3;
+	}
+	h1{
+		text-align:top;
+		font-style: italic;
+		font-size: 80px;
+		font-weight: normal;
+		font-color:red;
+	}
+	#menu-tile,#map-tile{
+	height:250px;
+	width:90%;
+	margin-bottom: 14px;
+	position:relative;
+	border:1px solid #7FB3D5;
+	overflow:hidden;
+}
+#menu-tile:hover, #Sundaes-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc; 
+}
+#menu-tile{
+	background: url('C:/Users/KEERTHI/web1/images/v3.png') no-repeat;
+	background-position: center;
+}
+
+#Sundaes-tile{
+	background: url('C:/Users/KEERTHI/web1/images/v1.png') no-repeat;
+     background-position: center;
+}
+#menu-tile span ,#map-tile span{
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:100%;
+	text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #7FB3D5;
+    color:#fff;
+    opacity: .8;
+}
+#menu-tile,#map-tile{
+	width:900px;
+	margin:0 auto 15px;
+}
+@media(max-width: 479px){
+	#menu-tile,#map-tile,#h{
+		width:300px;
+		margin:0 auto 15px;
+	}
+}
+.p-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color:#3F0C1F ;
+	border-top:0;
+	text-overflow: scroll;
+}
+.p-footer div.r{
+	margin-bottom: 30px;
+}
+#hours,#Address,#Contact{
+	line-height: 2;
+}
+#hours >span,#Address >span ,#Contact >span{
+	font-size: 1.2em;
+}
+#Address p{
+	color:black;
+	font-size: .9em;
+	line-height: 1.8;
+}
+p{
+	font-size: italic;
+	margin-top:25px;
+}
+.p-footer section{
+margin-bottom: 30px;
+text-align:center;
+}
+	</style>
+	<link rel="stylesheet" href="css/style.css">
+	<title>The Ice House</title>
+</head>
+<body>
+	<img src="C:\Users\KEERTHI\Documents\logo4.png" width=300 height=300 align="right">
+<h1>SCOOPS  RAINBOW</h1>
+<h2>"You can't buy happiness,but you can buy Ice Cream"</h2>
+<header>
+	<div id="collapsable-nav" class="collapse navbar-collapse">
+		<ul id="nav-list" class="nav navbar-nav navbar-right">
+			<li class="visible-xs active">
+				<a href="myweb1.html">
+					<span class="glyphicon glyphicon-home">
+						Home
+					</span>
+				</a>
+			</li>
+			<li class="visible-xs">
+				<a href="menu-categories.html">
+					<span class="glyphicon glyphicon-ice-lolly">
+						Menu
+					</span>
+				</a>
+			</li>
+	</div>
+	<div id="main-content" class="container">
+		<div class="jumbotron">
+<img src="images/Res.png" id="h" class="img-responsive visible-xs" width="800" height="500">
+	</div></div>
+	<div id="tiles" class="r">
+		<div class="col-md-4 col-sm-6 col-xs-12">
+		<a href="menu-categories.html"><div id="menu-tile"><span>Menu</span></div></a></div>
+		<!--<div class="col-md-4 col-sm-6 col-xs-12">
+			<a href="single-category.html"><div id="Sundaes-tile"><span>Sundaes</span></div></a></div>-->
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<a href="https://goo.gl/maps/SrEiS7WaUheHW2DE6" target="_blank">
+					<div id="map-tile">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d239.1744976280362!2d80.99477166583314!3d16.43538880222547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a361b0c1ff8fdd7%3A0x97ac454e2fa1cbec!2sSccope%20ice%20cream%20parlour!5e0!3m2!1sen!2sin!4v1591455077802!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+						<span>
+							map
+						</span>
+					</div>
+				</a>
+			</div>
+				
+			</div>
+		</div>
+	<!--<div>
+	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+		<span class="sr-only">=</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
+<div id="collapsable-nav" class="collapse navbar-collapse">
+	<li>
+		<a href="menu-categories.html">
+			<span class="glyphicon glyphicon-cultery"></span><br class="hidden-xs">Menu</a></li></div></div>-->
+			<footer class="p-footer">
+				<div class="container">
+					<div class="r">
+						<section id="hours" class="col-sm-4">
+							<span style="font-style: bold">
+								Timings:
+							</span><br>
+							Mon-Sat: 9:30 am - 8:30 pm<br>
+							Sun: 10:00 am - 8:30 pm
+							<br class="visible-xs">
+						</section >
+						<br>
+						<section id="Address" class="col-sm-4">
+						<span>
+							Address:
+						</span><br>
+                                you can find our Scoops Rainbow at <br>Gowrishankarapuram,Beside central bank<br>Near chinna sivalayam,Gudivada-521301<br>Gudivada locality,Gudivada.
+                                <p>We also deliver through online apps Swiggy ,Zomato </p>
+							<br class="visible-xs">
+						</section>
+                    <section id="Contact" class="col-sm-4">
+                    	<span>
+                    		Contact:
+                    	</span>
+                    	<br>
+                    	080-67466725
+                    	<br class="visible-xs">
+                    </section>
+					</div>
+					<div class="text-center" style="text-align:center;">&copy; Copyright Scoops Rainbow(gudivada)
+					</div>
+				</div>
+			</footer>
+		</header>
+	<!--<h3>Timings:</h3>
+	<p> 11:00 am- 7:00 pm </p>
+	<h3>Contact:</h3>
+	<p>You can contact here: 080-67466725</p>
+	<p> online delivery can be provided through Swiggy and Zomato</p>
+	<h4> Address:</h4>
+	<p></p>
+
+
+		-->
+
+		<p> "I scream,You scream.We all scream for Ice Cream"</p>
+
+		<p> "I guess Ice Cream is one of those things that are beyond imagination-L.M.Montagomery"</p>
+</body>
+</html>
