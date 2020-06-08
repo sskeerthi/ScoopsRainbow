@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.topnav{
+	background-color: #333;
+}
+.topnav a{
+	float:right;
+	color:blue;
+	text-align: center;
+	text-decoration: none;
+	font-size:17px;
+}
+.topnav a:hover{
+	background-color: #ddd;
+	color:blue;
+}
+*{
+	font-family:oxygen;
+		background-color:#C39BD3;
+	}
+	h1{
+		text-align:top;
+		font-style: italic;
+		font-size: 80px;
+		font-weight: normal;
+		font-color:red;
+	}
+	#menu-tile, #Sundaes-tile ,#map-tile{
+	height:250px;
+	width:90%;
+	margin-bottom: 14px;
+	position:relative;
+	border:1px solid #7FB3D5;
+	overflow:hidden;
+}
+#menu-tile:hover, #Sundaes-tile:hover, #map-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc; 
+}
+#menu-tile{
+	background: url('C:/Users/KEERTHI/web1/images/v3.png') no-repeat;
+	background-position: center;
+}
+#Sundaes-tile{
+	background: url('C:/Users/KEERTHI/web1/images/v1.png') no-repeat;
+     background-position: center;
+}
+#menu-tile span ,#Sundaes-tile span,#map-tile span{
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:100%;
+	text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #7FB3D5;
+    color:#fff;
+    opacity: .8;
+}
+#menu-tile,#Sundaes-tile ,#map-tile{
+	width:900px;
+	margin:0 auto 15px;
+}
+@media(max-width: 479px){
+	#menu-tile,#Sundaes-tile,#map-tile,#h{
+		width:300px;
+		margin:0 auto 15px;
+	}
+}
+.p-footer{
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color:#3F0C1F ;
+	border-top:0;
+	text-overflow: scroll;
+}
+.p-footer div.r{
+	margin-bottom: 30px;
+}
+#hours,#Address,#Contact{
+	line-height: 2;
+}
+#hours >span,#Address >span ,#Contact >span{
+	font-size: 1.2em;
+}
+#Address p{
+	color:black;
+	font-size: .9em;
+	line-height: 1.8;
+}
+p{
+	font-size: italic;
+	margin-top:25px;
+}
+.p-footer section{
+margin-bottom: 30px;
+text-align:center;
+}
+.category-tile{
+	position:relative;
+	border:2px solid #3F0C1F;
+	overflow:hidden;
+	width:300px;
+	height:200px;
+	margin:0 auto 15px;
+}
+.category-tile span{
+	position: absolute;
+	bottom:0;
+	right:0;
+	width:100%;
+	text-align: center;
+	font-size:1.2em;
+	text-transform: uppercase;
+	background-color: #000;
+	color:#fff;
+	opacity:  .8;
+}
+.category-tile:hover{
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-categories-title + div{
+	margin-bottom: 50px;
+}
+.col-xxs-12{
+	position: relative;
+	min-height:1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	float:left;
+	width:100%;
+}
+.menu-item-title{
+	margin-bottom:25px;
+}
+.menu-item-tile hr{
+	width:80%;
+}
+.menu-item-tile{
+	font-size: 20px;
+}
+.menu-item-photo{
+	position:relative;
+}
+.menu-item-details{
+	font-size: 20px;
+	font-style:italic;
+}
+.menu-item-description{
+	padding-right: 30px;
+}
+.menu-item-photo{
+	position:left;
+	bottom:0;
+	right:0;
+	width:80px;
+}
+
+	</style>
+	<link rel="stylesheet" href="css/style.css">
+	<title>The Ice House</title>
+</head>
+<body>
+	<img src="C:\Users\KEERTHI\Documents\logo4.png" width=300 height=300 align="center">
+<h1>SCOOPS  RAINBOW</h1>
+<h2>"You can't buy happiness,but you can buy Ice Cream"</h2>
+<header>
+	<div id="collapsable-nav" class="collapse navbar-collapse">
+		<ul id="nav-list" class="nav navbar-nav navbar-right">
+			<li class="visible-xs">
+				<a href="myweb1.html">
+					<span class="glyphicon glyphicon-home">
+						Home
+					</span>
+				</a>
+			</li>
+			<li class="visible-xs">
+				<a href="menu-categories.html">
+					<span class="glyphicon glyphicon-ice-lolly">
+						Menu
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="main-content" class="container">
+		<h2 id="menu-categories-title" class="text-center" style="text-align: center;"> Items</h2>
+		<div class="text-center" style="text-align: center;">All flavours are maximum available</div>
+		<section class="r">
+<div class="menu-item-tile col-md-6">
+				<div class="r">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>
+							1
+						     </div>
+							<img class="img-responsive" width="250" height="150" src="C:\Users\KEERTHI\Documents\c1.png" alt="Item">
+						</div>
+						<div class="menu-item-description col-sm-7">
+							<h3 class="menu-item-tile">Classic Cold Coffee</h3>
+							<p class="menu-item-details"> price:95/-</p>
+							<p class="menu-item-details">This cold coffee is favourite made with vanilla ice cream.</p>
+						</div>
+					</div>
+					<br class="visible-xs">
+				</div>
+			</div>
+			<div class="menu-item-tile col-md-6">
+				<div class="r">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>
+							2
+						     </div>
+							<img class="img-responsive" width="250" height="150" src="C:\Users\KEERTHI\Documents\c2.png" alt="Item">
+						</div>
+						<div class="menu-item-description col-sm-7">
+							<h3 class="menu-item-tile">Mocha Freeze</h3>
+							<p class="menu-item-details"> price:105/-</p>
+							<p class="menu-item-details">Cold coffee with chocolate syrup very chocolately. </p>
+						</div>
+					</div>
+					<br class="visible-xs">
+				</div>
+			</div>
+			<div class="menu-item-tile col-md-6">
+				<div class="r">
+					<div class="col-sm-5">
+						<div class="menu-item-photo">
+							<div>
+							3
+						     </div>
+							<img class="img-responsive" width="250" height="150" src="C:\Users\KEERTHI\Documents\c3.png" alt="Item">
+						</div>
+						<div class="menu-item-description col-sm-7">
+							<h3 class="menu-item-tile">Choco Frape</h3>
+							<p class="menu-item-details"> price:105/-</p>
+							<p class="menu-item-details">Espresso mixed with two scoops of vanilla & chocolate syrup.</p>
+						</div>
+					</div>
+					<br class="visible-xs">
+				</div>
+			</div>
+		</section>
+		</div>
+	
+			<footer class="p-footer">
+				<div class="container">
+					<div class="r">
+						<section id="hours" class="col-sm-4">
+							<span style="font-style: bold">
+								Timings:
+							</span><br>
+							Mon-Sat: 9:30 am - 8:30 pm<br>
+							Sun: 10:00 am - 8:30 pm
+							<br class="visible-xs">
+						</section >
+						<br>
+						<section id="Address" class="col-sm-4">
+						<span>
+							Address:
+						</span><br>
+                                you can find our Scoops Rainbow at <br>Gowrishankarapuram,Beside central bank<br>Near chinna sivalayam,Gudivada-521301<br>Gudivada locality,Gudivada.
+                                <p>We also deliver through online apps Swiggy ,Zomato </p>
+							<br class="visible-xs">
+						</section>
+                    <section id="Contact" class="col-sm-4">
+                    	<span>
+                    		Contact:
+                    	</span>
+                    	<br>
+                    	080-67466725
+                    	<br class="visible-xs">
+                    </section>
+					</div>
+					<div class="text-center" style="text-align:center;">&copy; Copyright Scoops Rainbow(gudivada)
+					</div>
+				</div>
+			</footer>
+		</header>
+	<!--<h3>Timings:</h3>
+	<p> 11:00 am- 7:00 pm </p>
+	<h3>Contact:</h3>
+	<p>You can contact here: 080-67466725</p>
+	<p> online delivery can be provided through Swiggy and Zomato</p>
+	<h4> Address:</h4>
+	<p></p>
+
+
+		-->
+
+		<p> "I scream,You scream.We all scream for Ice Cream"</p>
+
+		<p> "I guess Ice Cream is one of those things that are beyond imagination-L.M.Montagomery"</p>
+</body>
+</html>

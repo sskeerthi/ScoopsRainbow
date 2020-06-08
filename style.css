@@ -1,0 +1,16 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+	<style>
+    h1 {
+    	color:maroon;
+    }
+	</style>
+	<h1>subheading 1</h1>
+	<p>In this we will know the topics about the style replacement which is taught in classes</p>
+	<h2>subheading2</h2>
+	<p>this is another paragraph and we now style the font and other things</p>
+	<p style="text-align: center;">Iam here take a look</p>
+	</head>
+</html>
